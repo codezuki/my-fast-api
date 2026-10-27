@@ -1,0 +1,21 @@
+{"timestamp": "2026-10-26T17:03:46.911146+05:30", "level": "INFO", "logger": "NexusAPI", "message": "Request started | GET /api/State/GetStateList | IP=127.0.0.1 | CorrelationId=d59dc741-ae71-443d-a997-e3bc3f303d08"}
+{"timestamp": "2026-10-26T17:03:46.922612+05:30", "level": "INFO", "logger": "utils.cache", "message": "Cache miss: state:list"}
+{"timestamp": "2026-10-26T17:03:46.987961+05:30", "level": "INFO", "logger": "utils.spExecutor", "message": "Executing SQL: EXEC Com_State_GET @Mode = ?"}
+{"timestamp": "2026-10-26T17:03:47.012458+05:30", "level": "INFO", "logger": "NexusAPI", "message": "GET /api/State/GetStateList | 100 ms | CorrelationId=e3c961c7-3569-4a45-a78e-80330551349f | IP=127.0.0.1"}
+{"timestamp": "2026-10-26T17:03:47.013741+05:30", "level": "INFO", "logger": "NexusAPI", "message": "Request completed | GET /api/State/GetStateList | 102 ms | Status=200 | CorrelationId=d59dc741-ae71-443d-a997-e3bc3f303d08"}
+{"timestamp": "2026-10-26T17:29:06.568986+05:30", "level": "INFO", "logger": "NexusAPI", "message": "Request started | GET /api/State/GetCountriesDropdown | IP=127.0.0.1 | CorrelationId=da9a8eb8-6da2-441c-a996-d556a6132356"}
+{"timestamp": "2026-10-26T17:29:06.572963+05:30", "level": "INFO", "logger": "NexusAPI", "message": "GET /api/State/GetCountriesDropdown | 3 ms | CorrelationId=5981056f-a9fd-444c-a331-d9f1856bbaa7 | IP=127.0.0.1"}
+{"timestamp": "2026-10-26T17:29:06.573607+05:30", "level": "INFO", "logger": "NexusAPI", "message": "Request completed | GET /api/State/GetCountriesDropdown | 4 ms | Status=401 | CorrelationId=da9a8eb8-6da2-441c-a996-d556a6132356"}
+{"timestamp": "2026-10-26T17:29:12.432737+05:30", "level": "INFO", "logger": "NexusAPI", "message": "Request started | GET /api/Login/Auth/GetAuthentication | IP=127.0.0.1 | CorrelationId=d5dbbad0-4ba0-4344-b98a-a83dd00c0391"}
+{"timestamp": "2026-10-26T17:29:12.484698+05:30", "level": "INFO", "logger": "utils.spExecutor", "message": "Executing SQL: EXEC Com_Login_GET @Mode = ?, @UserName = ?, @Password = ?, @RequestType = ?"}
+{"timestamp": "2026-10-26T17:29:12.503096+05:30", "level": "INFO", "logger": "utils.spExecutor", "message": "Executing SQL: EXEC Com_Login_GET ?, ?"}
+{"timestamp": "2026-10-26T17:29:12.511098+05:30", "level": "INFO", "logger": "NexusAPI", "message": "GET /api/Login/Auth/GetAuthentication | 76 ms | CorrelationId=125206ee-2ad0-45d9-8636-340c096a1892 | IP=127.0.0.1"}
+{"timestamp": "2026-10-26T17:29:12.512572+05:30", "level": "INFO", "logger": "NexusAPI", "message": "Request completed | GET /api/Login/Auth/GetAuthentication | 79 ms | Status=200 | CorrelationId=d5dbbad0-4ba0-4344-b98a-a83dd00c0391"}
+{"timestamp": "2026-10-26T17:29:26.454848+05:30", "level": "INFO", "logger": "NexusAPI", "message": "Request started | GET /api/State/GetStateList | IP=127.0.0.1 | CorrelationId=e2120bbe-8e5f-4838-b1bf-c17474f53707"}
+{"timestamp": "2026-10-26T17:29:26.457506+05:30", "level": "INFO", "logger": "NexusAPI", "message": "GET /api/State/GetStateList | 1 ms | CorrelationId=9e8155d7-7d1b-4c77-9900-26d04a6476a7 | IP=127.0.0.1"}
+{"timestamp": "2026-10-26T17:29:26.458104+05:30", "level": "INFO", "logger": "NexusAPI", "message": "Request completed | GET /api/State/GetStateList | 3 ms | Status=401 | CorrelationId=e2120bbe-8e5f-4838-b1bf-c17474f53707"}
+{"timestamp": "2026-10-26T17:29:33.979402+05:30", "level": "INFO", "logger": "NexusAPI", "message": "Request started | GET /api/State/GetStateList | IP=127.0.0.1 | CorrelationId=3675b319-b010-41cb-98a7-fcb79deba78d"}
+{"timestamp": "2026-10-26T17:29:33.981621+05:30", "level": "INFO", "logger": "utils.cache", "message": "Cache miss: state:list"}
+{"timestamp": "2026-10-26T17:29:33.982130+05:30", "level": "INFO", "logger": "utils.spExecutor", "message": "Executing SQL: EXEC Com_State_GET @Mode = ?"}
+{"timestamp": "2026-10-26T17:29:33.996782+05:30", "level": "INFO", "logger": "NexusAPI", "message": "GET /api/State/GetStateList | 16 ms | CorrelationId=a9146e39-ab7b-43d9-bc35-629d6befdb49 | IP=127.0.0.1"}
+{"timestamp": "2026-10-26T17:29:34.003758+05:30", "level": "INFO", "logger": "NexusAPI", "message": "Request completed | GET /api/State/GetStateList | 24 ms | Status=200 | CorrelationId=3675b319-b010-41cb-98a7-fcb79deba78d"}
